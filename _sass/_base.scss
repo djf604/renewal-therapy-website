@@ -156,6 +156,8 @@ header {
     @include background-cover;
     background-position: center;
     background-image: url('../img/background.jpg');
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, .45);
     text-align: center;
     color: white;
     .header-content {
